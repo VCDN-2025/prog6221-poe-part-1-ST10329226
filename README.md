@@ -56,7 +56,7 @@
             * In **Solution Explorer**, right-click on `greeting.wav`.
             * In the **Properties** window, set **"Copy to Output Directory"** to **"Copy if newer"** or **"Copy always"**.
 
-    ## Usage
+        Usage
 
     1.  Run the Application:
         * Open a terminal or command prompt.
@@ -66,7 +66,7 @@
             ```bash
             CybersecurityChatbot.exe
             ```
-        * If using Visual Studio, you can simply run the application by pressing `Ctrl+F5`.
+        * If using Visual Studio, run the application by pressing `Ctrl+F5`.
 
     2.  Interact with the Chatbot:
         * The chatbot will display a welcome message and prompt you to enter your name.
@@ -81,7 +81,7 @@
     Please enter your name:
     James
 
-    Hello, John! I'm here to help you learn about staying safe online.
+    Hello, James! I'm here to help you learn about staying safe online.
 
     Here are some topics you can ask me about:
     - Password Safety
@@ -101,17 +101,13 @@
     Thank you for using the Cybersecurity Awareness Bot. Stay safe online!
     ```
 
-    ## Enhancing the Console UI
+      Enhancing the Console
 
-    To enhance the console user interface and improve the user experience, i will consider the following:
-
-    * Color Coding: Use `Console.ForegroundColor` and `Console.BackgroundColor` to add color to different parts of the output, such as headings, questions, and responses. This can make the text more visually appealing and easier to distinguish.
-    * Clearer Prompts: Provide more explicit instructions to the user, such as listing the available commands or keywords they can use.
-    * Consistent Formatting: Use consistent spacing, indentation, and line breaks to structure the output and make it more readable.
-    * Typing Animation: Simulate a more natural conversation by adding short delays using `Thread.Sleep` to display the chatbot's responses character by character.
+    * Color Coding: Use `Console.ForegroundColor` and `Console.BackgroundColor` to add color to different parts of the output, such as headings, questions, and responses. 
+    * Consistent Formatting: structure the output and make it more readable.
     * Borders and Separators: Use ASCII characters to create borders, dividers, or section headers to visually separate different parts of the conversation.
     * Progress Indicators: If the chatbot performs any time-consuming operations, display a progress bar or loading message to keep the user informed.
     * Error Handling: Provide more specific and helpful error messages for invalid input or unexpected situations.
     * Responsive Design: Adjust the layout and formatting of the console output to adapt to different screen sizes or window dimensions.
-    * Interactive Menus: Implement interactive menus using `Console.ReadKey` to allow users to navigate through different options or topics.
+    * Interactive Menus: interactive menus using `Console.ReadKey` to allow users to navigate through different options or topics.
      * Clear Instructions:  At the start of the conversation, display a list of possible questions the user can ask.
