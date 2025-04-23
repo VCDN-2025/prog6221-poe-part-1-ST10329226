@@ -15,6 +15,6 @@ jobs: # A workflow run is made up of one or more jobs
     - name: Setup MSBuild #Sets up MSBuild, the build tool for .NET Framework
       uses: microsoft/setup-msbuild@v1.0.2 #Sets up MSBuild, the build tool for .NET Framework
     - name: Restore NuGet packages # Restores the NuGet packages that your project depends on
-      run: nuget restore CybersecurityChatbot.sln  # File name 
+      run: nuget restore CybersecurityChatbot.sln.sln  # File name 
     - name: Build #Builds .NET Framework project using MSBuild
-      run: msbuild CybersecurityChatbot.sln /p:Configuration=Release  # File name
+      run: msbuild CybersecurityChatbot.sln.sln /p:Configuration=Release  # File name
