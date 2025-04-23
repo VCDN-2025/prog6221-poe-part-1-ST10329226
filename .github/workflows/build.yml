@@ -1,1 +1,20 @@
+name: Build # workflow should run
 
+on:
+  push:
+    branches: [main]  
+  pull_request:
+    branches: [main]
+
+jobs: # A workflow run is made up of one or more jobs
+  build:
+    runs-on: windows-latest  # Use a Windows runner for .NET Framework
+
+    steps:
+    - uses: actions/checkout@v3 # Checks out your repository's code
+    - name: Setup MSBuild #Sets up MSBuild, the build tool for .NET Framework
+      uses: microsoft/setup-msbuild@v1.0.2 #Sets up MSBuild, the build tool for .NET Framework
+    - name: Restore NuGet packages # Restores the NuGet packages that your project depends on
+      run: nuget restore CybersecurityChatbot.sln.sln  # File name 
+    - name: Build #Builds .NET Framework project using MSBuild
+      run: msbuild CybersecurityChatbot.sln.sln /p:Configuration=Release  # File name
