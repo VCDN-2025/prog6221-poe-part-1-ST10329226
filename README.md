@@ -1,4 +1,4 @@
-  # Cybersecurity Awareness Chatbot
+  # Cybersecurity Chatbot
 
     Project Description
 
@@ -11,7 +11,7 @@
 
     The application is developed in C# and is intended to be a helpful tool for anyone looking to improve their understanding of cybersecurity.
 
-    ## Features
+    Features
 
     * Voice Greeting: Plays a WAV file greeting when the application starts.
     * ASCII Art Banner: Displays a stylized "Chatbot" banner using the Figgle library.
@@ -20,11 +20,11 @@
     * Provides information on a range of cybersecurity topics.
     * Enhanced Console UI: Provides a polished and user-friendly console interface with improved readability.
 
-    ## What the application does
+    What the application does
 
     The application is a console-based chatbot that interacts with the user to provide information and answer questions about cybersecurity.
 
-    ## Setup Instructions
+    Setup Instructions
 
     1.  Prerequisites:
         * [.NET Runtime](https://dotnet.microsoft.com/en-us/download) (Version 6.0 or later is recommended)
